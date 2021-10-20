@@ -1,0 +1,82 @@
+html{
+    margin-left: 12em;
+}
+body{
+    width: 950px;
+}
+
+h1{
+    color: blueviolet;
+}
+.cabecera{
+    color: black;
+    font-family: sans-serif;
+}
+.cabecera img{
+    float: right;
+}
+
+.presentacion{
+    overflow: hidden;
+    border-top: dotted ;
+    background-color: gainsboro;
+    padding: 2em;
+}
+
+.presentacion img{
+    float: left;
+    padding-right: 2em;
+}
+
+.presentacion h2{ 
+    padding-top: 4em;
+}
+
+.cajitas{
+    padding-bottom: 1.5em;
+}
+
+.cajitas h3, input{
+    color: red;
+}
+.cajitas img{   
+    float: left;
+    padding-right: 1em;
+}
+
+.caja1{
+    width: 33%;
+    display: inline-block;
+}
+
+.caja2{
+    width: 33%;
+    display: inline-block;
+}
+
+.caja3{
+    width: 33%;
+    display: inline-block;
+}
+
+.imagenes{
+    padding: 1em;
+    border-top: dotted;
+    border-bottom: dotted;
+}
+
+.imagenes img{
+    border-style: outset;
+}
+
+.pie{
+    margin-top: 1.5em;
+    background-color: gainsboro;
+    color: black;
+}
+.pie p{
+    display: inline-block;
+}
+.pie p+p{
+    float: right;
+}
